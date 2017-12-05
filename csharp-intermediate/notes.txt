@@ -1,0 +1,36 @@
+Anatomy of a class
+
+Data (  represented by fields)
+
+Behaviour ( represented by methods / functions )
+
+
+class UML unified modified lanague
+--------
+Person
+---------
+NAME: string
+Age: Byte
+Height : float
+weight: byte
+-------------
+Walk ()
+Talk ()
+Eat ()
+Sleep ()
+
+
+
+Object - instance of a class
+
+objects of the above class is  John Mary or Scott
+
+
+Class Members
+Instance : Accessible from an object
+
+Static: accessible from the class
+
+Constructors
+
+same name as the class
