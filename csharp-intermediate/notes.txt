@@ -34,3 +34,56 @@ Static: accessible from the class
 Constructors
 
 same name as the class
+
+object Initializers
+
+ syntax for quickly initailing object with constructor to avoid making about of constructors
+
+ var person = new Person
+ {
+ FirstName= " Lynn" ,
+ LastName  = "Long"
+ };
+
+
+ METHOD
+ Signature of method
+
+ Name
+ number and type of parameters
+
+ public class Point
+ {
+  public void move ( int x, int y({}
+ }
+
+
+ Overloading Methods
+
+ having a method with the same name but differeny signatures
+
+  public class Point
+ {
+  public void move ( int x, int y){}
+  public void move ( point newLocation){}
+  public void move ( point newLocation , int speed){}
+ }
+
+
+Parms modifier
+
+public in add ( params int[] numbers){}
+
+when calling add you dont have to initialize array every time
+
+fields
+
+initialization field
+
+
+Access modifier to protect code
+
+
+Inheritance is not a IS-a relationship
+
+like A Car is a Vehicle
